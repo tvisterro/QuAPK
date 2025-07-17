@@ -1,77 +1,77 @@
 # QuAPK
 
-[![Licencia: MIT](https://img.shields.io/badge/Licencia-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Plataforma](https://img.shields.io/badge/plataforma-Windows-blue)](https://www.microsoft.com/windows)
+[![Licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Plateforme](https://img.shields.io/badge/plateforme-Windows-blue)](https://www.microsoft.com/windows)
 
-🌐 **[English](README.md) | [Français](README_FR.md) | [Deutsch](README_DE.md) | [Русский](README_RU.md) | [中文](README_ZH.md) | [日本語](README_JA.md)**
+🌐 **[English](README.md) | [Español](README_ES.md) | [Deutsch](README_DE.md) | [Русский](README_RU.md) | [中文](README_ZH.md) | [日本語](README_JA.md)**
 
-## 📱 Acerca de
+## 📱 À propos
 
-QuAPK es una herramienta simple y potente para instalar archivos APK y OBB en dispositivos Meta Quest. Con soporte multiidioma y creación automática de copias de seguridad, hace que la carga lateral de aplicaciones sea segura y fácil.
+QuAPK est un outil simple et puissant pour installer des fichiers APK et OBB sur les appareils Meta Quest. Avec un support multilingue et une création automatique de sauvegarde, il rend le chargement latéral d'applications sûr et facile.
 
-## ✨ Características
+## ✨ Fonctionnalités
 
-- 🚀 Instalación fácil de APK y OBB
-- 💾 Copia de seguridad automática antes de la instalación
-- 🌍 Soporte para 7 idiomas
-- 🛡️ Reversión segura en caso de fallo
-- 🎮 Diseñado específicamente para Meta Quest
-- 📦 Detección automática del nombre del paquete
-- 💻 No requiere instalación de Python
+- 🚀 Installation facile d'APK et OBB
+- 💾 Sauvegarde automatique avant l'installation
+- 🌍 Support pour 7 langues
+- 🛡️ Restauration sécurisée en cas d'échec
+- 🎮 Conçu spécifiquement pour Meta Quest
+- 📦 Détection automatique du nom du package
+- 💻 Aucune installation Python requise
 
-## ⚠️ Requisitos
+## ⚠️ Prérequis
 
-- PC con Windows (64-bit)
-- Dispositivo Meta Quest con Modo Desarrollador habilitado
-- Cable USB
-- ADB (Android Debug Bridge) - solicitará descarga si no está instalado
+- PC Windows (64-bit)
+- Appareil Meta Quest avec Mode Développeur activé
+- Câble USB
+- ADB (Android Debug Bridge) - demandera le téléchargement s'il n'est pas installé
 
-## 🚀 Inicio Rápido
+## 🚀 Démarrage Rapide
 
-1. Habilita el Modo Desarrollador en tu Meta Quest
-2. Conecta tu dispositivo vía USB
-3. Descarga y ejecuta `QuAPK.exe`
-4. Sigue las instrucciones en pantalla
+1. Activez le Mode Développeur sur votre Meta Quest
+2. Connectez votre appareil via USB
+3. Téléchargez et exécutez `QuAPK.exe`
+4. Suivez les instructions à l'écran
 
-## 📥 Instalación
+## 📥 Installation
 
-### Windows (Recomendado)
-1. Descarga la última versión desde [Releases](https://github.com/tvisterro/QuAPK/releases)
-2. Extrae el archivo ZIP
-3. Ejecuta `QuAPK.exe`
+### Windows (Recommandé)
+1. Téléchargez la dernière version depuis [Releases](https://github.com/tvisterro/QuAPK/releases)
+2. Extrayez le fichier ZIP
+3. Exécutez `QuAPK.exe`
 
-¡No requiere instalación - es portátil!
+Aucune installation requise - c'est portable !
 
-### Otras Plataformas (No Recomendado)
-Puedes intentar ejecutar `QuAPK.py` con Python 3.6+ en otras plataformas, pero esto no está probado ni es compatible. Úsalo bajo tu propio riesgo.
+### Autres Plateformes (Non Recommandé)
+Vous pouvez essayer d'exécuter `QuAPK.py` avec Python 3.6+ sur d'autres plateformes, mais ceci n'est pas testé et non supporté. Utilisez à vos propres risques.
 
-## ⚠️ Descargo de responsabilidad
+## ⚠️ Avertissement
 
-Este software se proporciona "tal cual", sin garantía de ningún tipo. El desarrollador no es responsable de:
-- Cualquier daño a tu dispositivo
-- Violación de los términos de servicio de Meta Quest
-- Pérdida de garantía
-- Cualquier consecuencia legal por instalar software no oficial
+Ce logiciel est fourni "tel quel", sans garantie d'aucune sorte. Le développeur n'est pas responsable de:
+- Tout dommage à votre appareil
+- Violation des conditions d'utilisation de Meta Quest
+- Perte de garantie
+- Toute conséquence juridique de l'installation de logiciels non officiels
 
-Úsalo bajo tu propio riesgo. Solo instala APKs de fuentes confiables.
+Utilisez à vos propres risques. N'installez que des APK provenant de sources fiables.
 
-## 🛡️ Aviso sobre Antivirus
+## 🛡️ Avis Antivirus
 
-Algunos antivirus pueden marcar QuAPK como sospechoso porque:
-- Ejecuta comandos del sistema (ADB)
-- Modifica archivos en dispositivos conectados
+Certains antivirus peuvent signaler QuAPK comme suspect car il:
+- Exécute des commandes système (ADB)
+- Modifie des fichiers sur les appareils connectés
 
-Este es un comportamiento normal para este tipo de herramienta. Puedes revisar el código fuente para transparencia.
+C'est un comportement normal pour ce type d'outil. Vous pouvez vérifier le code source pour la transparence.
 
-## 📄 Licencia
+## 📄 Licence
 
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
-## 👤 Autor
+## 👤 Auteur
 
-Creado por [@tvisterro](https://github.com/tvisterro)
+Créé par [@tvisterro](https://github.com/tvisterro)
 
-## 📞 Contacto
+## 📞 Contact
 
 - Telegram: [@sexwithfemboy](https://t.me/sexwithfemboy)
 - Discord: [@sexwithfemboy](https://discord.com/users/sexwithfemboy)
