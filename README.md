@@ -1,7 +1,6 @@
 # QuAPK
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue)](https://www.microsoft.com/windows)
 
 🌐 **[Español](README_ES.md) | [Français](README_FR.md) | [Deutsch](README_DE.md) | [Русский](README_RU.md) | [中文](README_ZH.md) | [日本語](README_JA.md)**
@@ -18,10 +17,11 @@ QuAPK is a simple and powerful tool for installing APK and OBB files on Meta Que
 - 🛡️ Safe rollback on failure
 - 🎮 Designed specifically for Meta Quest
 - 📦 Package name auto-detection
+- 💻 No Python installation required
 
 ## ⚠️ Requirements
 
-- Windows PC
+- Windows PC (64-bit)
 - Meta Quest device with Developer Mode enabled
 - USB cable
 - ADB (Android Debug Bridge) - will prompt to download if not installed
@@ -30,8 +30,20 @@ QuAPK is a simple and powerful tool for installing APK and OBB files on Meta Que
 
 1. Enable Developer Mode on your Meta Quest
 2. Connect your device via USB
-3. Run `QuAPK.exe`
+3. Download and run `QuAPK.exe`
 4. Follow the on-screen instructions
+
+## 📥 Installation
+
+### Windows (Recommended)
+1. Download the latest release from [Releases](https://github.com/tvisterro/QuAPK/releases)
+2. Extract the ZIP file
+3. Run `QuAPK.exe`
+
+No installation required - it's portable!
+
+### Other Platforms (Not Recommended)
+You can try running `QuAPK.py` with Python 3.6+ on other platforms, but this is untested and unsupported. Use at your own risk.
 
 ## ⚠️ Disclaimer
 
@@ -42,6 +54,14 @@ This software is provided "as is", without warranty of any kind. The developer i
 - Any legal consequences of installing unofficial software
 
 Use at your own risk. Only install APKs from trusted sources.
+
+## 🛡️ Antivirus Notice
+
+Some antivirus software may flag QuAPK as suspicious because it:
+- Executes system commands (ADB)
+- Modifies files on connected devices
+
+This is normal behavior for this type of tool. You can check the source code for transparency.
 
 ## 📄 License
 
