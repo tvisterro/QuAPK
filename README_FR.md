@@ -30,7 +30,7 @@ QuAPK est un outil simple et puissant pour installer des fichiers APK et OBB sur
 
 1. Activez le Mode Développeur sur votre Meta Quest
 2. Connectez votre appareil via USB
-3. Exécutez `quapk.py`
+3. Exécutez `QuAPK.exe`
 4. Suivez les instructions à l'écran
 
 ## ⚠️ Avertissement
