@@ -54,4 +54,4 @@ Creado por [@tvisterro](https://github.com/tvisterro)
 ## 📞 Contacto
 
 - Telegram: [@sexwithfemboy](https://t.me/sexwithfemboy)
-- Discord: @sexwithfemboy
+- Discord: [@sexwithfemboy](https://discord.com/users/sexwithfemboy)
